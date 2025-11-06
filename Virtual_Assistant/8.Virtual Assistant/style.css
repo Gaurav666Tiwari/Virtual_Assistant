@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+    flex-direction: column;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.im { color: white; }
+.jericho { color: orange; font-weight: bold; }
+.assistant { color: purple; font-weight: bold; }
+
+.search-box {
+    margin-top: 20px;
+}
+
+.mic-button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    font-size: 18px;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgba(255, 0, 255, 0.6);
+}
